@@ -8,7 +8,7 @@ Solution validator for a board game similar to Sudoku. The game has an n by n bo
     ![solution to the board looks like](solution.png)
 
 * to run the program with custom values
-    * make sure python >3.7 is installed
+    * make sure python > 3.7 is installed
     * fill in the solution, N value and constrains in solution.execution.py
     * save & execute
 
@@ -17,12 +17,12 @@ Solution validator for a board game similar to Sudoku. The game has an n by n bo
 ```
 
 * to run the program after logic changes (TDD or debug mode)
-    -  make sure python >3.7 is installed
+    -  make sure python > 3.7 is installed
     - Assertions are available when executing the module as main script to validate the logic.
 ```bash
     python validate_puzzle.py
 ```    
 
-Notes
+* Notes
     * Same can be achieved using Numpy methods. This is created using basic Python data structures
     * logging is always set to run in DEBUG while executing the Module and Info while executing from outside. Module can be extended to include logging handlers and custom log levels. 
